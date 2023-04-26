@@ -1,9 +1,17 @@
 using System;
+using System.Collections.Generic;
 
-class Program
+namespace Learning02
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello Learning02 World!");
-    }
+        public void DoSomething()
+        {
+            Console.WriteLine("Inside the other program class.");
+            List<int> myList = new List<int>() { 121, 7};
+            myList.Add(2021);
+            //f
+        }
 }
+}
+
