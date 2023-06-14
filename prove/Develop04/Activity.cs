@@ -1,6 +1,6 @@
 using System;
 namespace Develop04{
-    class Program
+    class Activity
     {
         static void Main(string[] args)
         {
